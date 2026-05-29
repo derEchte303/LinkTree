@@ -17,6 +17,9 @@ body {
 h1 {
     margin-bottom: 30px;
 }
+h2 {
+    margin-bottom: 30px;
+}
 
 a:hover {
     background: #444;
@@ -118,4 +121,36 @@ a:hover {
     color: white;
     font-size: 14px;
     scale: 0.8;
+}
+
+.locked {
+    background: #333;
+    text-decoration: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin: 10px;
+
+    border-radius: 12px;
+
+    width: 220px;
+    text-align: center;
+
+    transition: 0.2s;
+}
+
+.locked:hover {
+    background: #202020;
+    text-decoration: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin: 10px;
+
+    border-radius: 12px;
+
+    width: 220px;
+    text-align: center;
+
+    transition: 0.2s;
 }
